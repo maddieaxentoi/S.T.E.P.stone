@@ -1,9 +1,14 @@
 #Conway's Game of Life
+
 import random, time, copy
+
 WIDTH = 60
+
 HEIGHT = 20
 
+
 #Create a list of list from the cells:
+
 nextCells = []
 for x in range (WIDTH):
     column = [] #create a new column
